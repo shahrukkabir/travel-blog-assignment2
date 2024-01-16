@@ -255,9 +255,7 @@ input:focus, select:focus {
     border-radius: 16px;
 }
 
-.chose-us-card:hover {
-    box-shadow: 5px 5px 5px #424247;
-}
+
 
 .chose-us-card h4 {
     margin: 30px 0 20px;
@@ -375,15 +373,9 @@ input:focus, select:focus {
 .review-card {
     padding: 40px 10px;
     border-radius: 10px;
-    /* box-shadow: 5px 5px 5px #424247; */
-    box-shadow: 5px 5px 5px #4242472f;
-    background-color: rgba(250, 235, 215, 0.377);
-}
 
-.review-card:hover {
-    box-shadow: 5px 5px 5px #424247;
+    background-color: rgba(223, 215, 250, 0.377);
 }
-
 .review-card h4 {
     font-size: 1.50rem;
 }
@@ -515,7 +507,7 @@ footer {
 
 .footer-title {
     font-family: 'Pacifico', cursive;
-    color: #131318;
+    color: #141813;
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: 16px;
@@ -538,5 +530,6 @@ footer {
 .social-icon a {
     text-decoration: none;
     font-size: 2rem;
+    color: #141813;
 }
 /* footer end */
