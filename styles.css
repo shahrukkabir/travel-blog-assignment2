@@ -1,0 +1,67 @@
+/* font form google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&family=Pacifico&display=swap');
+
+/* universal style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header start */
+/* nav start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 135px;
+}
+.nav-title-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav .nav-title-container .hero {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+}
+nav .nav-title-container .travel {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+}
+nav>ul {
+    display: flex;
+    gap: 44px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li .home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav ul li a:hover {
+    color: darkblue;
+}
+.hamburger-menu {
+    font-size: 2rem;
+    display: none;
+}
+
+
+/* nav end */
+
+/* header end */
