@@ -1,0 +1,16 @@
+/* Mobile Responsive */
+@media screen and (max-width:600px){
+    html{
+        font-size: 13px;
+    }
+    nav{
+        padding: 10px;
+    }
+    nav>ul{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+
+}
