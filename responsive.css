@@ -1,16 +1,139 @@
-/* Mobile Responsive */
-@media screen and (max-width:600px){
-    html{
+/* responsive mobile  max-width:600px*/
+@media screen and (max-width:600px) {
+    html {
         font-size: 13px;
     }
-    nav{
-        padding: 20px;
+
+    /* navbar */
+    nav {
+        padding: 10px;
     }
-    nav>ul{
+
+    nav>ul {
         display: none;
     }
-    .hamburger-menu{
+
+    .hamburger-menu {
         display: block;
+    }
+
+    /* main */
+    main {
+        width: 100%;
+    }
+
+    /* explore travel section */
+    .explore-travel-container {
+        background-position: 50%;
+
+    }
+
+    .find-now {
+        margin-top: 20px;
+        flex-direction: column;
+        width: 80%;
+        gap: 1.50rem;
+        padding: 10px;
+    }
+
+    /* popular tour section */
+    .popular-tour {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .popular-tour .popular-tour-img img {
+        width: 100%;
+    }
+
+    /* chose destination */
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+
+    .photo {
+        grid-column: 1/span 12;
+    }
+
+    #photo-1 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-2 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-3 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-4 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-5 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-6 {
+        grid-column: 1 / span 12;
+    }
+
+    #photo-7 {
+        grid-column: 1 / span 12;
+    }
+
+    /* chose us section */
+    .chose-us-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    #chose-us-3rd {
+        left: 0;
+    }
+
+    /* deals and discount */
+    .discount-banner-right, .discount-banner-left {
+        justify-content: center;
+    }
+
+    .discount-banner-container, .discount-banner-left>.discount-banner-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /* customer review */
+    .customer-review-card {
+        grid-template-columns: 1fr;
+    }
+
+    /* perfect place */
+    #perfect-place {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #perfect-place iframe {
+        width: 100%;
+    }
+
+    /* newsletter */
+    #newsletter {
+        flex-direction: column;
+    }
+
+    #newsletter .newsletter-img img {
+        width: 100%;
+    }
+
+    .newsletter-img {
+        position: relative;
+    }
+
+    #newsletter .discount {
+        width: 100px;
+        bottom: 10%;
     }
 
 }
